@@ -11,7 +11,7 @@
         android:theme="@style/Theme.MyApplication">
 
         <activity
-            android:name=".orderhistory"
+            android:name=".activity.orderhistory"
             android:exported="true" />
 
         <activity android:name=".activity.Home"></activity>
