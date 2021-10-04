@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     Animation topAnimation,bottomAnimation;
     ImageView image;
-    TextView logo,tag;
+    TextView logo,tag,right;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,10 +37,12 @@ public class MainActivity extends AppCompatActivity {
         image = findViewById(R.id.imageView);
         logo = findViewById(R.id.textView);
         tag = findViewById(R.id.textView2);
+        right=findViewById(R.id.right);
 
         image.setAnimation(topAnimation);
         logo.setAnimation(bottomAnimation);
         tag.setAnimation(bottomAnimation);
+        right.setAnimation(bottomAnimation);
 
         new Handler().postDelayed(new Runnable() {
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)

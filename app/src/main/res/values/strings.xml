@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ALMORE</string>
+    <string name="copyright"><ul>@copyright.All Rights Reserved</ul></string>
 </resources>
