@@ -9,7 +9,7 @@
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
-    tools:context=".Home_Delivery">
+    tools:context=".activity.Home_Delivery">
 
     <LinearLayout
         android:id="@+id/linearLayout"

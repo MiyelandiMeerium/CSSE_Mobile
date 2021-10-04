@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,10 +7,13 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
+import com.example.myapplication.R;
+import com.example.myapplication.activity.MainScreen;
+
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link com.example.myapplication.Home_Delivery#newInstance} factory method to
+ * Use the {@link Home_Delivery#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class Home_Delivery extends Fragment {
@@ -21,8 +24,8 @@ public class Home_Delivery extends Fragment {
         // Required empty public constructor
     }
 
-    public static com.example.myapplication.Home_Delivery newInstance(String param1, String param2) {
-        com.example.myapplication.Home_Delivery fragment = new com.example.myapplication.Home_Delivery();
+    public static Home_Delivery newInstance(String param1, String param2) {
+        Home_Delivery fragment = new Home_Delivery();
 
 
         return fragment;
