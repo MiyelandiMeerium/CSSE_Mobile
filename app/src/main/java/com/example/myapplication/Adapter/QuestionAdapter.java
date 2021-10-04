@@ -17,10 +17,10 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.cssemobileapp.Model.Options;
-import com.example.cssemobileapp.Model.Questions;
+import com.example.myapplication.Model.Options;
+import com.example.myapplication.Model.Questions;
 import com.example.myapplication.R;
-import com.example.cssemobileapp.utils.QuestionTypes;
+import com.example.myapplication.utils.QuestionTypes;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.ArrayList;

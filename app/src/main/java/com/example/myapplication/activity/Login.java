@@ -1,4 +1,4 @@
-package com.example.cssemobileapp.activity;
+package com.example.myapplication.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.cssemobileapp.R;
+import com.example.myapplication.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -121,7 +121,7 @@ public class Login extends AppCompatActivity {
     }
     public void SignInButtonClickFunction(View view) {
 
-        Intent intent = new Intent(Login.this, HomeAppActivity.class);
+        Intent intent = new Intent(Login.this, Home.class);
         startActivity(intent);
     }
     @Override
@@ -135,7 +135,7 @@ public class Login extends AppCompatActivity {
     private void updateUI(FirebaseUser user){
         if(user != null){
             Toast.makeText(this,"Login Success",Toast.LENGTH_LONG).show();
-            Intent intent = new Intent(this, HomeAppActivity.class);
+            Intent intent = new Intent(this, Home.class);
             startActivity(intent);
             finish();
         }else{

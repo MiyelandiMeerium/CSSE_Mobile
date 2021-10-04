@@ -42,7 +42,7 @@ public class addItems extends Fragment implements CallBackListener {
 
 
     public static com.example.myapplication.activity.addItems newInstance(String param1, String param2) {
-        com.example.myapplication.activity.addItems fragment = new com.example.myapplication.activity.addItems();
+       addItems fragment = new addItems();
 
         return fragment;
     }

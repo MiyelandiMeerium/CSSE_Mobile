@@ -1,4 +1,4 @@
-package com.example.cssemobileapp.Adapter;
+package com.example.myapplication.Adapter;
 
 import android.app.Application;
 import android.content.Context;
@@ -12,9 +12,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.cssemobileapp.R;
-import com.example.cssemobileapp.Model.Options;
-import com.example.cssemobileapp.Model.Questions;
+import com.example.myapplication.R;
+import com.example.myapplication.Model.Options;
+import com.example.myapplication.Model.Questions;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.cssemobileapp.activity;
+package com.example.myapplication.activity;
 
 import android.os.Bundle;
 
@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.cssemobileapp.R;
+import com.example.myapplication.R;
 
 /**
  * A simple {@link Fragment} subclass.

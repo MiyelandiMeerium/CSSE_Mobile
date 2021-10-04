@@ -17,7 +17,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.example.cssemobileapp.R;
+import com.example.myapplication.R;
 
 /**
  * A simple {@link Fragment} subclass.

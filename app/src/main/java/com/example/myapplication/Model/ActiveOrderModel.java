@@ -1,4 +1,4 @@
-package com.example.cssemobileapp.Model;
+package com.example.myapplication.Model;
 
 import java.security.PrivateKey;
 

@@ -181,7 +181,7 @@
                 android:backgroundTintMode="add"
                 android:fontFamily="monospace"
                 android:text="Sign in"
-                android:textColor="@color/background"
+                android:textColor="#FFFFFF"
                 android:textColorHighlight="@color/Green"
                 android:textColorHint="@color/colorSuccess"
                 android:textColorLink="@color/colorSuccess"

@@ -1,4 +1,4 @@
-package com.example.cssemobileapp.Adapter;
+package com.example.myapplication.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,12 +9,12 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.cssemobileapp.Holder.ActiveOrderHolder;
-import com.example.cssemobileapp.Holder.PendingOrderHolder;
-import com.example.cssemobileapp.Model.ActiveOrderModel;
-import com.example.cssemobileapp.Model.PendingOrderModel;
-import com.example.cssemobileapp.R;
-import com.example.cssemobileapp.activity.ActiveOrders;
+import com.example.myapplication.Holder.ActiveOrderHolder;
+import com.example.myapplication.Holder.PendingOrderHolder;
+import com.example.myapplication.Model.ActiveOrderModel;
+import com.example.myapplication.Model.PendingOrderModel;
+import com.example.myapplication.R;
+import com.example.myapplication.activity.ActiveOrders;
 
 import java.util.ArrayList;
 

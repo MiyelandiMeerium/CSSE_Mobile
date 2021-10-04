@@ -1,4 +1,4 @@
-package com.example.cssemobileapp.service;
+package com.example.myapplication.service;
 
 import android.util.Base64;
 

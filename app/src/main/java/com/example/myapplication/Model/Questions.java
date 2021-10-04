@@ -1,6 +1,6 @@
 package com.example.myapplication.Model;
 
-import com.example.cssemobileapp.utils.QuestionTypes;
+import com.example.myapplication.utils.QuestionTypes;
 
 import java.util.List;
 
