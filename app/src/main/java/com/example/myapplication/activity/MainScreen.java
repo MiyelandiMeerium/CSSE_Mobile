@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,6 +8,11 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.myapplication.R;
+
+import com.example.myapplication.activity.Home_Delivery;
+import com.example.myapplication.activity.Home_View_Orders;
 
 
 public class MainScreen extends Fragment {
@@ -24,8 +29,8 @@ public class MainScreen extends Fragment {
     }
 
 
-    public static com.example.myapplication.MainScreen newInstance(String param1, String param2) {
-        com.example.myapplication.MainScreen fragment = new com.example.myapplication.MainScreen();
+    public static com.example.myapplication.activity.MainScreen newInstance(String param1, String param2) {
+        com.example.myapplication.activity.MainScreen fragment = new com.example.myapplication.activity.MainScreen();
 
         return fragment;
     }

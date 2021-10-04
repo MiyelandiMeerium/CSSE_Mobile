@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,9 +8,13 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.myapplication.activity.PendingOrders;
+import com.example.myapplication.activity.PlaceNewOrder;
+import com.example.myapplication.R;
+
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link com.example.myapplication.Home_View_Orders#newInstance} factory method to
+ * Use the {@link Home_View_Orders#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class Home_View_Orders extends Fragment {
@@ -39,8 +43,8 @@ public class Home_View_Orders extends Fragment {
      * @return A new instance of fragment Home_View_Orders.
      */
     // TODO: Rename and change types and number of parameters
-    public static com.example.myapplication.Home_View_Orders newInstance(String param1, String param2) {
-        com.example.myapplication.Home_View_Orders fragment = new com.example.myapplication.Home_View_Orders();
+    public static Home_View_Orders newInstance(String param1, String param2) {
+        Home_View_Orders fragment = new Home_View_Orders();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -85,7 +89,7 @@ public class Home_View_Orders extends Fragment {
             @Override
             public void onClick(View view) {
 
-                getFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new MainScreen()).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new PendingOrders()).addToBackStack(null).commit();
 
             }
 

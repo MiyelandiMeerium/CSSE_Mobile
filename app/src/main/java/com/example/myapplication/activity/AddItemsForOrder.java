@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,9 +11,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.myapplication.R;
+
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link com.example.myapplication.AddItemsForOrder#newInstance} factory method to
+ * Use the {@link AddItemsForOrder#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class AddItemsForOrder extends Fragment {
@@ -25,8 +27,8 @@ public class AddItemsForOrder extends Fragment {
         // Required empty public constructor
     }
 
-    public static com.example.myapplication.AddItemsForOrder newInstance(String param1, String param2) {
-        com.example.myapplication.AddItemsForOrder fragment = new com.example.myapplication.AddItemsForOrder();
+    public static AddItemsForOrder newInstance(String param1, String param2) {
+        AddItemsForOrder fragment = new AddItemsForOrder();
 
         return fragment;
     }
