@@ -176,6 +176,31 @@
     <string name="first_desc">Register to the app by simply providing the personal information and use the service.</string>
     <string name="second_desc">Manage your construction orders with the app.</string>
     <string name="third_desc">Just start your work with the app and make your work easy whenever you need.</string>
+    <string name="purchases_date">Purchases Date:</string>
+    <string name="purchase_order_history">Purchase Order History</string>
+    <string name="cham1">Order ID: 2065</string>
+    <string name="cham2">No of Items: 50</string>
+    <string name="cham3">Purchase Date: 25/05/2021</string>
+    <string name="cham4">Rs. 75,000.00</string>
+    <string name="cham5">Order ID:</string>
+    <string name="cham6">No of Items:</string>
+    <string name="cham7">Rs. 35,000.00</string>
+    <string name="cham8">Order ID :</string>
+    <string name="cham9">No of Items :</string>
+    <string name="cham10">Purchase Date :</string>
+    <string name="cham11">Rs. 25,000.00</string>
+    <string name="cham12">Order ID :</string>
+    <string name="cham13">No of Items:</string>
+    <string name="cham14">Purchase Date :</string>
+    <string name="cham115">Order ID :</string>
+    <string name="cham16">No of Items:</string>
+    <string name="cham17">Purchase Date :</string>
+    <string name="cham18">Order ID :</string>
+    <string name="cham19">No of Items:</string>
+    <string name="cham20">Purchase Date :</string>
+    <string name="cham21">Order ID :</string>
+    <string name="cham22">No of Items:</string>
+    <string name="cham23">Purchase Date :</string>
 
 
     <!-- login related
