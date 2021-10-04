@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +16,6 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.annotation.RequiresApi;
 import com.example.myapplication.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -48,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this,Home.class);
+                Intent intent = new Intent(MainActivity.this, Home.class);
 
                 Pair[] pairs = new Pair[2];
                 pairs[0] = new Pair<View, String>(image,"logo_image");

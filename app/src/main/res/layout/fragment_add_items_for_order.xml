@@ -6,7 +6,7 @@
         android:layout_height="match_parent"
         android:background="@color/Lavender"
         android:padding="10dp"
-        tools:context=".AddItemsForOrder">
+        tools:context=".activity.AddItemsForOrder">
 
         <LinearLayout
             android:layout_width="match_parent"
