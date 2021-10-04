@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link com.example.cssemobileapp.activity.AddItemsForOrder#newInstance} factory method to
+ * Use the {@link com.example.myapplication.AddItemsForOrder#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class AddItemsForOrder extends Fragment {
@@ -25,8 +25,8 @@ public class AddItemsForOrder extends Fragment {
         // Required empty public constructor
     }
 
-    public static com.example.cssemobileapp.activity.AddItemsForOrder newInstance(String param1, String param2) {
-        com.example.cssemobileapp.activity.AddItemsForOrder fragment = new com.example.cssemobileapp.activity.AddItemsForOrder();
+    public static com.example.myapplication.AddItemsForOrder newInstance(String param1, String param2) {
+        com.example.myapplication.AddItemsForOrder fragment = new com.example.myapplication.AddItemsForOrder();
 
         return fragment;
     }
