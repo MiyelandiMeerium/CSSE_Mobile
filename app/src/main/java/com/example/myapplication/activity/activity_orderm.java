@@ -1,16 +1,15 @@
 package com.example.myapplication.activity;
 
-import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Bundle;
 import com.example.myapplication.R;
 
-public class order extends AppCompatActivity {
+public class activity_orderm extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.order);
+        setContentView(R.layout.activity_orderm);
     }
 }

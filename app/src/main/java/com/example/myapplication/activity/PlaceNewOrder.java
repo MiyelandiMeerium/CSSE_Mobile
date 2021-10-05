@@ -9,8 +9,6 @@ import android.widget.Button;
 import com.example.myapplication.R;
 import androidx.fragment.app.Fragment;
 
-import com.example.myapplication.activity.AddItemsForOrder;
-
 
 public class PlaceNewOrder extends Fragment {
 
@@ -46,7 +44,7 @@ public class PlaceNewOrder extends Fragment {
             @Override
             public void onClick(View view) {
 
-                getFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new AddItemsForOrder()).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new Order()).addToBackStack(null).commit();
 
             }
 

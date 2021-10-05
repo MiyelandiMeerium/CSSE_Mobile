@@ -1,4 +1,4 @@
-package com.example.cssemobileapp.Adapter;
+package com.example.myapplication.Adapter;
 
 public class ViewOtherOrdersAdapter {
 }
